@@ -36,6 +36,7 @@
 		A9FA1D2E1FFD6DD600C773DC /* BarebonesAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarebonesAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9FA1D321FFD6DD600C773DC /* BarebonesAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarebonesAppTests.swift; sourceTree = "<group>"; };
 		A9FA1D341FFD6DD600C773DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9FA1D3D1FFD74C200C773DC /* BarebonesApp.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = BarebonesApp.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +60,7 @@
 		A9FA1D111FFD6DD600C773DC = {
 			isa = PBXGroup;
 			children = (
+				A9FA1D3D1FFD74C200C773DC /* BarebonesApp.playground */,
 				A9FA1D1C1FFD6DD600C773DC /* BarebonesApp */,
 				A9FA1D311FFD6DD600C773DC /* BarebonesAppTests */,
 				A9FA1D1B1FFD6DD600C773DC /* Products */,
