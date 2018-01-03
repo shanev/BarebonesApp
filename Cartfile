@@ -1,0 +1,7 @@
+github "Alamofire/Alamofire"
+github "Alamofire/AlamofireImage"
+github "marketplacer/keychain-swift"
+github "Moya/Moya"
+github "Daltron/NotificationBanner"
+github "ReactiveCocoa/ReactiveCocoa"
+github "antitypical/Result"
