@@ -1,22 +1,22 @@
 import JWT
 
-public struct Token {
-  public let token: String
+public struct JWToken {
+  public let value: String
 
-  public static func encode(uuid: String) -> Token {
+  public static func encode(uuid: String) -> JWToken {
     var config = Configuration()
     let token = JWT.encode(claims: ["uuid": uuid],
                            algorithm: .hs256(config.environment.secret.data(using: .utf8)!))
 
-    return Token(token: token)
+    return JWToken(token: token)
   }
 
-  public static func encode(id: String) -> Token {
+  public static func encode(id: String) -> JWToken {
     var config = Configuration()
     let token = JWT.encode(claims: ["id": id],
                            algorithm: .hs256(config.environment.secret.data(using: .utf8)!))
 
-    return Token(token: token)
+    return JWToken(token: token)
   }
 
   public func decodeId() -> String? {
@@ -46,7 +46,7 @@ public struct Token {
   }
 }
 
-extension Token: Decodable {
+extension JWToken: Decodable {
   public static func decode(_ json: JSON) -> Decoded<Token> {
     return curry(Token.init)
       <^> json <| "jwt"

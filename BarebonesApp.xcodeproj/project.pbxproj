@@ -16,7 +16,7 @@
 		A9FA1D401FFDE27E00C773DC /* PushNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA1D3F1FFDE27E00C773DC /* PushNotifications.swift */; };
 		A9FA1D431FFDE60800C773DC /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA1D421FFDE60800C773DC /* Session.swift */; };
 		A9FA1D451FFDE72700C773DC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA1D441FFDE72700C773DC /* User.swift */; };
-		A9FA1D471FFDE7FD00C773DC /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA1D461FFDE7FD00C773DC /* Token.swift */; };
+		A9FA1D471FFDE7FD00C773DC /* JWToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA1D461FFDE7FD00C773DC /* JWToken.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +44,7 @@
 		A9FA1D3F1FFDE27E00C773DC /* PushNotifications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushNotifications.swift; sourceTree = "<group>"; };
 		A9FA1D421FFDE60800C773DC /* Session.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
 		A9FA1D441FFDE72700C773DC /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		A9FA1D461FFDE7FD00C773DC /* Token.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
+		A9FA1D461FFDE7FD00C773DC /* JWToken.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JWToken.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,7 +112,7 @@
 			children = (
 				A9FA1D3F1FFDE27E00C773DC /* PushNotifications.swift */,
 				A9FA1D421FFDE60800C773DC /* Session.swift */,
-				A9FA1D461FFDE7FD00C773DC /* Token.swift */,
+				A9FA1D461FFDE7FD00C773DC /* JWToken.swift */,
 				A9FA1D441FFDE72700C773DC /* User.swift */,
 			);
 			path = App;
@@ -224,7 +224,7 @@
 				A9FA1D431FFDE60800C773DC /* Session.swift in Sources */,
 				A9FA1D201FFD6DD600C773DC /* ViewController.swift in Sources */,
 				A9FA1D1E1FFD6DD600C773DC /* AppDelegate.swift in Sources */,
-				A9FA1D471FFDE7FD00C773DC /* Token.swift in Sources */,
+				A9FA1D471FFDE7FD00C773DC /* JWToken.swift in Sources */,
 				A9FA1D451FFDE72700C773DC /* User.swift in Sources */,
 				A9FA1D401FFDE27E00C773DC /* PushNotifications.swift in Sources */,
 			);
