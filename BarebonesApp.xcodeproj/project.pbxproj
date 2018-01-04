@@ -17,6 +17,8 @@
 		A9FA1D431FFDE60800C773DC /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA1D421FFDE60800C773DC /* Session.swift */; };
 		A9FA1D451FFDE72700C773DC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA1D441FFDE72700C773DC /* User.swift */; };
 		A9FA1D471FFDE7FD00C773DC /* JWToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA1D461FFDE7FD00C773DC /* JWToken.swift */; };
+		A9FA1D491FFDF92000C773DC /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA1D481FFDF92000C773DC /* Environment.swift */; };
+		A9FA1D4A1FFDF92000C773DC /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA1D481FFDF92000C773DC /* Environment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,7 @@
 		A9FA1D421FFDE60800C773DC /* Session.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
 		A9FA1D441FFDE72700C773DC /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		A9FA1D461FFDE7FD00C773DC /* JWToken.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JWToken.swift; sourceTree = "<group>"; };
+		A9FA1D481FFDF92000C773DC /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,7 @@
 		A9FA1D411FFDE60800C773DC /* App */ = {
 			isa = PBXGroup;
 			children = (
+				A9FA1D481FFDF92000C773DC /* Environment.swift */,
 				A9FA1D3F1FFDE27E00C773DC /* PushNotifications.swift */,
 				A9FA1D421FFDE60800C773DC /* Session.swift */,
 				A9FA1D461FFDE7FD00C773DC /* JWToken.swift */,
@@ -224,6 +228,7 @@
 				A9FA1D431FFDE60800C773DC /* Session.swift in Sources */,
 				A9FA1D201FFD6DD600C773DC /* ViewController.swift in Sources */,
 				A9FA1D1E1FFD6DD600C773DC /* AppDelegate.swift in Sources */,
+				A9FA1D491FFDF92000C773DC /* Environment.swift in Sources */,
 				A9FA1D471FFDE7FD00C773DC /* JWToken.swift in Sources */,
 				A9FA1D451FFDE72700C773DC /* User.swift in Sources */,
 				A9FA1D401FFDE27E00C773DC /* PushNotifications.swift in Sources */,
@@ -235,6 +240,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9FA1D331FFD6DD600C773DC /* BarebonesAppTests.swift in Sources */,
+				A9FA1D4A1FFDF92000C773DC /* Environment.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
