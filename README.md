@@ -1,6 +1,6 @@
-# iOS App Starter Kit
+# StartKit
 
-Boilerplate for building a client-server iOS app. Fork it for a starting place for your own app. Made to work with ios-koa-api as a backend.
+StartKit is boilerplate for building client-server iOS apps. It provides basic implementaions for authentication, push notifications, talking to an API, and user accounts. Fork it for a starting place for your own app. It works great with ios-koa-api as a backend.
 
 ## Requirements
 
@@ -12,6 +12,7 @@ Carthage is a dependency manager for Xcode.
 
 * Push notifications
 * API authentication with JSON Web Tokens
+* Value-type based API service
 * Model serialization with Codable
 
 ## Stack
