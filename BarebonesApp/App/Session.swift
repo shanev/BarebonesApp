@@ -11,13 +11,13 @@ public class Session {
     return KeychainSwift().get(Keychain.userId)
   }
 
-  public lazy var api: ReactiveSwiftMoyaProvider<Service>! = {
+  public lazy var api: ReactiveSwiftMoyaProvider<Api>! = {
     return self.userId
       .flatMap { Token.encode(id: $0) }
       .map { $0.token }
       .map { AccessTokenPlugin(token: $0) }
       .map { (authPlugin) in
-        ReactiveSwiftMoyaProvider<Service>(
+        ReactiveSwiftMoyaProvider<Api>(
           plugins: [
             authPlugin,
             //            NetworkLoggerPlugin()
