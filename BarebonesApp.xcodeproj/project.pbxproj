@@ -13,6 +13,7 @@
 		A9FA1D251FFD6DD600C773DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9FA1D241FFD6DD600C773DC /* Assets.xcassets */; };
 		A9FA1D281FFD6DD600C773DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9FA1D261FFD6DD600C773DC /* LaunchScreen.storyboard */; };
 		A9FA1D331FFD6DD600C773DC /* BarebonesAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA1D321FFD6DD600C773DC /* BarebonesAppTests.swift */; };
+		A9FA1D401FFDE27E00C773DC /* PushNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA1D3F1FFDE27E00C773DC /* PushNotifications.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +38,7 @@
 		A9FA1D321FFD6DD600C773DC /* BarebonesAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarebonesAppTests.swift; sourceTree = "<group>"; };
 		A9FA1D341FFD6DD600C773DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A9FA1D3D1FFD74C200C773DC /* BarebonesApp.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = BarebonesApp.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		A9FA1D3F1FFDE27E00C773DC /* PushNotifications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushNotifications.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		A9FA1D1C1FFD6DD600C773DC /* BarebonesApp */ = {
 			isa = PBXGroup;
 			children = (
+				A9FA1D3E1FFDE27E00C773DC /* Library */,
 				A9FA1D1D1FFD6DD600C773DC /* AppDelegate.swift */,
 				A9FA1D1F1FFD6DD600C773DC /* ViewController.swift */,
 				A9FA1D211FFD6DD600C773DC /* Main.storyboard */,
@@ -96,6 +99,14 @@
 				A9FA1D341FFD6DD600C773DC /* Info.plist */,
 			);
 			path = BarebonesAppTests;
+			sourceTree = "<group>";
+		};
+		A9FA1D3E1FFDE27E00C773DC /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				A9FA1D3F1FFDE27E00C773DC /* PushNotifications.swift */,
+			);
+			path = Library;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,6 +214,7 @@
 			files = (
 				A9FA1D201FFD6DD600C773DC /* ViewController.swift in Sources */,
 				A9FA1D1E1FFD6DD600C773DC /* AppDelegate.swift in Sources */,
+				A9FA1D401FFDE27E00C773DC /* PushNotifications.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
