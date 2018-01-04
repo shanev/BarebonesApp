@@ -7,6 +7,7 @@ import Moya
 
 public enum Api {
   case createUser
+  case getUser
   case updateUser(deviceToken: String?)
 }
 
@@ -19,7 +20,7 @@ extension Api: TargetType, AccessTokenAuthorizable {
   /// The path to be appended to `baseURL` to form the full `URL`.
   public var path: String {
     switch self {
-    case .updateUser:
+    case .getUser, .updateUser:
       return "/users/self"
     case .createUser:
       return "/users"
@@ -29,6 +30,8 @@ extension Api: TargetType, AccessTokenAuthorizable {
   /// The HTTP method used in the request.
   public var method: Moya.Method {
     switch self {
+    case .getUser:
+      return .get
     case .createUser:
       return .post
     case .updateUser:
@@ -39,7 +42,7 @@ extension Api: TargetType, AccessTokenAuthorizable {
   /// The parameters to be encoded in the request.
   public var parameters: [String : Any]? {
     switch self {
-    case .createUser:
+    case .createUser, .getUser:
       return nil
     case let .updateUser(deviceToken):
       if let token = deviceToken {
