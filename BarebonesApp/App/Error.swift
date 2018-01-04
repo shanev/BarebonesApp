@@ -3,6 +3,7 @@ struct ClientError: Swift.Error {
   static let badConnection = ClientError(reason: "Connection lost")
   static let fetchUser = ClientError(reason: "Error fetching user")
   static let invalidUser = ClientError(reason: "Invalid user")
+  static let decodeUser = ClientError(reason: "Error decoding user")
 }
 
 extension ClientError: Equatable {

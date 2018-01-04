@@ -36,8 +36,12 @@ public class Session {
             print(error)
             observer.send(error: .fetchUser)
           case .success(let response):
-            if let user: User = decode(response) {
+            do {
+              let user = try JSONDecoder().decode(User.self, from: response)
               observer.send(value: user)
+            } catch(let error) {
+              print(error)
+              observer.send(error: .decodeUser)
             }
           }
       }
