@@ -88,7 +88,6 @@
 			isa = PBXGroup;
 			children = (
 				A9FA1D411FFDE60800C773DC /* App */,
-				A9FA1D3E1FFDE27E00C773DC /* Library */,
 				A9FA1D1D1FFD6DD600C773DC /* AppDelegate.swift */,
 				A9FA1D1F1FFD6DD600C773DC /* ViewController.swift */,
 				A9FA1D211FFD6DD600C773DC /* Main.storyboard */,
@@ -108,17 +107,10 @@
 			path = BarebonesAppTests;
 			sourceTree = "<group>";
 		};
-		A9FA1D3E1FFDE27E00C773DC /* Library */ = {
-			isa = PBXGroup;
-			children = (
-				A9FA1D3F1FFDE27E00C773DC /* PushNotifications.swift */,
-			);
-			path = Library;
-			sourceTree = "<group>";
-		};
 		A9FA1D411FFDE60800C773DC /* App */ = {
 			isa = PBXGroup;
 			children = (
+				A9FA1D3F1FFDE27E00C773DC /* PushNotifications.swift */,
 				A9FA1D421FFDE60800C773DC /* Session.swift */,
 				A9FA1D461FFDE7FD00C773DC /* Token.swift */,
 				A9FA1D441FFDE72700C773DC /* User.swift */,
