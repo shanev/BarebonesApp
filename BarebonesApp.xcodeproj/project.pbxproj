@@ -14,6 +14,7 @@
 		A9FA1D281FFD6DD600C773DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9FA1D261FFD6DD600C773DC /* LaunchScreen.storyboard */; };
 		A9FA1D331FFD6DD600C773DC /* BarebonesAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA1D321FFD6DD600C773DC /* BarebonesAppTests.swift */; };
 		A9FA1D401FFDE27E00C773DC /* PushNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA1D3F1FFDE27E00C773DC /* PushNotifications.swift */; };
+		A9FA1D431FFDE60800C773DC /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA1D421FFDE60800C773DC /* Session.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +40,7 @@
 		A9FA1D341FFD6DD600C773DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A9FA1D3D1FFD74C200C773DC /* BarebonesApp.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = BarebonesApp.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		A9FA1D3F1FFDE27E00C773DC /* PushNotifications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushNotifications.swift; sourceTree = "<group>"; };
+		A9FA1D421FFDE60800C773DC /* Session.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		A9FA1D1C1FFD6DD600C773DC /* BarebonesApp */ = {
 			isa = PBXGroup;
 			children = (
+				A9FA1D411FFDE60800C773DC /* App */,
 				A9FA1D3E1FFDE27E00C773DC /* Library */,
 				A9FA1D1D1FFD6DD600C773DC /* AppDelegate.swift */,
 				A9FA1D1F1FFD6DD600C773DC /* ViewController.swift */,
@@ -107,6 +110,14 @@
 				A9FA1D3F1FFDE27E00C773DC /* PushNotifications.swift */,
 			);
 			path = Library;
+			sourceTree = "<group>";
+		};
+		A9FA1D411FFDE60800C773DC /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A9FA1D421FFDE60800C773DC /* Session.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,6 +223,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9FA1D431FFDE60800C773DC /* Session.swift in Sources */,
 				A9FA1D201FFD6DD600C773DC /* ViewController.swift in Sources */,
 				A9FA1D1E1FFD6DD600C773DC /* AppDelegate.swift in Sources */,
 				A9FA1D401FFDE27E00C773DC /* PushNotifications.swift in Sources */,
