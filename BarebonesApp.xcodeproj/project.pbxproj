@@ -21,6 +21,8 @@
 		A9FA1D4A1FFDF92000C773DC /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA1D481FFDF92000C773DC /* Environment.swift */; };
 		A9FA1D4C1FFDFD4B00C773DC /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA1D4B1FFDFD4B00C773DC /* Api.swift */; };
 		A9FA1D4D1FFDFD4B00C773DC /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA1D4B1FFDFD4B00C773DC /* Api.swift */; };
+		A9FA1D4F1FFE015200C773DC /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA1D4E1FFE015200C773DC /* Error.swift */; };
+		A9FA1D501FFE015200C773DC /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA1D4E1FFE015200C773DC /* Error.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,7 @@
 		A9FA1D461FFDE7FD00C773DC /* JWToken.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JWToken.swift; sourceTree = "<group>"; };
 		A9FA1D481FFDF92000C773DC /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
 		A9FA1D4B1FFDFD4B00C773DC /* Api.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
+		A9FA1D4E1FFE015200C773DC /* Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +121,7 @@
 			children = (
 				A9FA1D4B1FFDFD4B00C773DC /* Api.swift */,
 				A9FA1D481FFDF92000C773DC /* Environment.swift */,
+				A9FA1D4E1FFE015200C773DC /* Error.swift */,
 				A9FA1D461FFDE7FD00C773DC /* JWToken.swift */,
 				A9FA1D3F1FFDE27E00C773DC /* PushNotifications.swift */,
 				A9FA1D421FFDE60800C773DC /* Session.swift */,
@@ -236,6 +240,7 @@
 				A9FA1D471FFDE7FD00C773DC /* JWToken.swift in Sources */,
 				A9FA1D451FFDE72700C773DC /* User.swift in Sources */,
 				A9FA1D4C1FFDFD4B00C773DC /* Api.swift in Sources */,
+				A9FA1D4F1FFE015200C773DC /* Error.swift in Sources */,
 				A9FA1D401FFDE27E00C773DC /* PushNotifications.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -244,6 +249,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9FA1D501FFE015200C773DC /* Error.swift in Sources */,
 				A9FA1D4D1FFDFD4B00C773DC /* Api.swift in Sources */,
 				A9FA1D331FFD6DD600C773DC /* BarebonesAppTests.swift in Sources */,
 				A9FA1D4A1FFDF92000C773DC /* Environment.swift in Sources */,
