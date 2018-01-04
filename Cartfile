@@ -1,5 +1,6 @@
 github "Alamofire/Alamofire"
 github "Alamofire/AlamofireImage"
+github "kylef/JSONWebToken.swift"
 github "marketplacer/keychain-swift"
 github "Moya/Moya"
 github "Daltron/NotificationBanner"
