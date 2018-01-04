@@ -34,10 +34,18 @@ struct JWToken {
       var config = Configuration()
       let claims: ClaimSet = try JWT.decode(
         token,
-        algorithm: .hs256(Environment.jwtSecret.value.data(using: .utf8)!))
-      if let claim = claims["user"] {
-        return decode(claim)
+        algorithm: .hs256(Environment.jwtSecret.value.data(using: .utf8)!)
+      )
+      guard let userClaim = claims["user"] else {
+        return nil
       }
+
+      do {
+        try return JSONDecoder().decode(User.self, from: userClaim)
+      } catch(let error) {
+        print(error)
+      }
+
     } catch {
       print("Failed to decode JWT: \(error)")
     }
