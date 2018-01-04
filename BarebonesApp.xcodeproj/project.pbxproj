@@ -15,6 +15,7 @@
 		A9FA1D331FFD6DD600C773DC /* BarebonesAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA1D321FFD6DD600C773DC /* BarebonesAppTests.swift */; };
 		A9FA1D401FFDE27E00C773DC /* PushNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA1D3F1FFDE27E00C773DC /* PushNotifications.swift */; };
 		A9FA1D431FFDE60800C773DC /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA1D421FFDE60800C773DC /* Session.swift */; };
+		A9FA1D451FFDE72700C773DC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA1D441FFDE72700C773DC /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +42,7 @@
 		A9FA1D3D1FFD74C200C773DC /* BarebonesApp.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = BarebonesApp.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		A9FA1D3F1FFDE27E00C773DC /* PushNotifications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushNotifications.swift; sourceTree = "<group>"; };
 		A9FA1D421FFDE60800C773DC /* Session.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		A9FA1D441FFDE72700C773DC /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 		A9FA1D411FFDE60800C773DC /* App */ = {
 			isa = PBXGroup;
 			children = (
+				A9FA1D441FFDE72700C773DC /* User.swift */,
 				A9FA1D421FFDE60800C773DC /* Session.swift */,
 			);
 			path = App;
@@ -226,6 +229,7 @@
 				A9FA1D431FFDE60800C773DC /* Session.swift in Sources */,
 				A9FA1D201FFD6DD600C773DC /* ViewController.swift in Sources */,
 				A9FA1D1E1FFD6DD600C773DC /* AppDelegate.swift in Sources */,
+				A9FA1D451FFDE72700C773DC /* User.swift in Sources */,
 				A9FA1D401FFDE27E00C773DC /* PushNotifications.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
